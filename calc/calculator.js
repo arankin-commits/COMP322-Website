@@ -60,7 +60,7 @@ setTimeout(function() {
     
     let validNumbers = resultList.filter(item => typeof item === "number");
     
-    min = Math.min(...validNumbers));
+    min = Math.min(...validNumbers);
     max = Math.max(...validNumbers);
     total = validNumbers.reduce((acc, val) => acc + val, 0);
     let validNumbersCount = validNumbers.length;
