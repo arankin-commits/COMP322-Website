@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+    <style>
+        .highlight-cell {
+            background-color: #ffb13b; /* Bright yellow */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Calculator</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th class="highlight-cell">x</th>
+                <th class="highlight-cell">Operator</th>
+                <th class="highlight-cell">y</th>
+                <th class="highlight-cell">Result</th>
+            </tr>
+        </thead>
+        <tbody id="calcTable">
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th class="highlight-cell">Min</th>
+                <th class="highlight-cell">Max</th>
+                <th class="highlight-cell">Average</th>
+                <th class="highlight-cell">Total</th>
+            </tr>
+        </thead>
+        <tbody id="summaryTable">
+        </tbody>
+    </table>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
