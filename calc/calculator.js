@@ -1,4 +1,3 @@
-
 let continueCalc = true;
 let resultList = [];
 let total = null;
